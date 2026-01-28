@@ -1,10 +1,8 @@
 
 # CartPole-v1 Solved with REINFORCE Policy Gradient
 
-This repository demonstrates solving the **CartPole-v1** environment from OpenAI Gym using the **REINFORCE Policy Gradient** algorithm. The project includes a complete implementation in Python and PyTorch.
+This repository demonstrates solving the **CartPole-v1** environment from the Gymnasium library using the **REINFORCE Policy Gradient** algorithm. The project includes a complete implementation in Python and PyTorch.
 
-
----
 
 ## Overview
 
@@ -16,7 +14,6 @@ Key features:
 - Reward discounting with a configurable gamma factor.  
 - Training visualization using reward curves.
 
----
 
 ## Algorithm
 
@@ -30,15 +27,12 @@ Steps:
    - Compute discounted returns.  
    - Update policy parameters θ using gradient ascent:  
 
-\[
-\theta \leftarrow \theta + \alpha \sum_{t} \nabla_\theta \log \pi_\theta(a_t|s_t) G_t
-\]
+$\[\theta \leftarrow \theta + \alpha \sum_{t} \nabla_\theta \log \pi_\theta(a_t|s_t) G_t\$
 
 Where:  
 - \(G_t\) is the discounted return from time step \(t\).  
 - \(\pi_\theta(a_t|s_t)\) is the policy probability of taking action \(a_t\) in state \(s_t\).
 
----
 
 ## Requirements
 
@@ -47,9 +41,6 @@ Where:
 - [Gymnasium](https://gymnasium.farama.org/) (or OpenAI Gym)  
 - Numpy  
 - Matplotlib (optional, for plotting reward curves)  
-
----
-
 
 Usage
 
@@ -66,7 +57,6 @@ Options:
 	•	Modify hyperparameters like learning rate, gamma, or hidden layers in train_cartpole.py.
 	•	Enable plotting of rewards for monitoring convergence.
 
-⸻
 
 Results
 	•	The model typically solves CartPole-v1 within 500–1500 episodes.
