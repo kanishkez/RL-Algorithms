@@ -6,7 +6,6 @@ Currently included:
 - REINFORCE Policy Gradient on CartPole-v1
 - Actor–Critic with Self-Play on a custom Tic-Tac-Toe environment
 
-⸻
 
 ## CartPole-v1 — REINFORCE Policy Gradient
 
@@ -37,7 +36,6 @@ Results
 - Average reward ≥ 195
 - Trained model weights (.pth) are included in the repository
 
-⸻
 
 ## Tic-Tac-Toe — Actor–Critic with Self-Play
 
@@ -73,7 +71,6 @@ Outcome
 - Consistently beats random and weak opponents
 - Demonstrates stable learning via self-play
 
-⸻
 
 Requirements
 - Python ≥ 3.8
@@ -81,7 +78,6 @@ Requirements
 - Gymnasium
 - NumPy
 
-⸻
 
 Goal of This Repository
 
