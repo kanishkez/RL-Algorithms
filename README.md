@@ -71,6 +71,31 @@ Outcome
 - Consistently beats random and weak opponents
 - Demonstrates stable learning via self-play
 
+## LunarLander-v3 — Proximal Policy Optimization (PPO)
+
+This project solves LunarLander-v3 using Proximal Policy Optimization (PPO) with an Actor–Critic architecture and Generalized Advantage Estimation (GAE).
+
+This implementation is written fully from scratch using PyTorch.
+
+Files
+- Training: lunarlander_ppo.py
+- Evaluation (with rendering): lunar_eval.py
+- Saved model weights: ppo_lunarlander.pt, ppo_lunarlander_final.pt
+
+Train
+
+```python lunarlander_ppo.py```
+
+Evaluate (with visualization)
+
+```python lunar_eval.py```
+
+Results
+
+- Consistently achieves episode rewards ≥ 200
+- Stable landings in most evaluation episodes
+- Occasional failures expected due to stochastic dynamics
+
 
 Requirements
 - Python ≥ 3.8
