@@ -80,7 +80,7 @@ This implementation is written fully from scratch using PyTorch.
 Files
 - Training: lunarlander_ppo.py
 - Evaluation (with rendering): lunar_eval.py
-- Saved model weights: ppo_lunarlander.pt, ppo_lunarlander_final.pt
+- Saved model weights: ppo_lunarlander_final.pt
 
 Train
 
@@ -104,7 +104,7 @@ Requirements
 - NumPy
 
 
-Goal of This Repository
+### Goal of This Repository
 
 This repo is meant to be a learning-first RL codebase, showing:
 - How RL algorithms actually work internally
